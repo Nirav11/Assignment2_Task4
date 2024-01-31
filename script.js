@@ -13,7 +13,7 @@
           title: "Data from {SensorName} satellite",
           content: `
             Rendered RGB values: <b>{Raster.ServicePixelValue} </b>
-            <br>Original values (B, G, R, NIR): <b>{Raster.ItemPixelValue} </b>
+            <br>Original values (b5,b6): <b>{Raster.ItemPixelValue} </b>
             `
         };
 
