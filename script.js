@@ -22,12 +22,12 @@
          ******************************************************************/
 
         const serviceRFT = new RasterFunction({
-          functionName: "TorontoFalseColor",
+          functionName: "Normalized Difference Moisture Index Colorized",
           variableName: "Raster"
         });
 
         const layer = new ImageryLayer({
-          url: "https://sampleserver6.arcgisonline.com/arcgis/rest/services/Toronto/ImageServer",
+          url: "https://landsat2.arcgis.com/arcgis/rest/services/Landsat8_Views/ImageServer",
           rasterFunction: serviceRFT,
           popupTemplate: imagePopupTemplate
         });
